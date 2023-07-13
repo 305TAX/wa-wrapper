@@ -17,7 +17,7 @@ global.authed = false;
 
 const app = express();
 
-const port = process.env.PORT || config.port;
+const port = 4000;
 //Set Request Size Limit 50 MB
 app.use(bodyParser.json({ limit: "50mb" }));
 
